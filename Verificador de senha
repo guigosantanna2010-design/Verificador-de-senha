@@ -1,0 +1,35 @@
+-> Página de Cadastro
+
+Uma simulação de página de cadastro com verificação de e-mail e senha, criada em Python.
+
+
+-> Sobre o projeto
+
+Este projeto reproduz um sistema básico de registro no terminal, realizando a validação
+o endereço de e-mail e a robustez da senha do usuário.
+
+-> Como opera
+
+1. O usuário fornece seu nome e endereço de e-mail.
+2. O programa checa a validade do email.
+3. O usuário estabelece uma senha e a valida
+4. O programa analisa a robustez da senha
+
+-> Padrões
+
+| Critério | Resultado |
+|---|---|
+| Email com "@" | Email considerado válido |
+| Senhas idênticas | Senha confirmada |
+| 12+ caracteres | Senha robusta |
+| 10 a 11 caracteres | Senha média |
+| 8 a 9 caracteres | Senha pouco segura |
+| Menos de 8 caracteres | Senha não aceita |
+
+-> Inovações tecnológicas
+
+Python 3
+
+-> Escritor
+
+guigosantanna2010-design
